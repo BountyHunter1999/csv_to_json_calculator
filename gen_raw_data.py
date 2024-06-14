@@ -32,5 +32,5 @@ def save_to_csv(data: list[list[str, str, str]]) -> None:
 
 
 if __name__ == "__main__":
-    data = create_raw_data(466666, 30000)
+    data = create_raw_data(4_466_666, 40_000)
     save_to_csv(data)
