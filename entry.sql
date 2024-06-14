@@ -8,7 +8,7 @@ CREATE TEMP TABLE temp_people (
     gender VARCHAR(10)
 );
 
-CREATE TABLE people (
+CREATE TABLE IF NOT EXISTS people (
     name VARCHAR(100),
     state VARCHAR(100),
     gender VARCHAR(10),
